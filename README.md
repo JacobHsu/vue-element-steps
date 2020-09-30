@@ -1,6 +1,9 @@
 # vue-element-steps
 
-> A Vue.js project
+
+ElementUI [Steps 步骤条](https://element.eleme.io/#/zh-CN/component/steps)
+[使用vue.js2.0 + ElementUI开发后台管理系统详细教程](https://zhuanlan.zhihu.com/p/26511747)
+開源項目 > WEB应用开发 > 后台管理框架 > [houtai](https://gitee.com/dahouge/houtai)
 
 ## Build Setup
 

@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "element-ui": "1.0.9",
+    "lodash.debounce": "^4.0.8"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -48,7 +50,13 @@
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+    "http-proxy-middleware": "^0.17.2",
+    "jquery": "^3.1.1",
+    "json-loader": "^0.5.4",
+    "opn": "^4.0.2",
+    "vuex": "^2.1.1",
+    "vue-resource": "^1.0.3"
   },
   "engines": {
     "node": ">= 6.0.0",
