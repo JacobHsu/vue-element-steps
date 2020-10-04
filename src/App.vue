@@ -10,10 +10,6 @@
             mode="horizontal"
             @select=""
           >
-            <el-menu-item index="1">高级插件</el-menu-item>
-            <el-menu-item index="2">在线商城</el-menu-item>
-            <el-menu-item index="3">客户管理</el-menu-item>
-            <el-menu-item index="4">系统设置</el-menu-item>
             <el-menu-item index="5">活动发布</el-menu-item>
           </el-menu>
         </el-col>
@@ -34,9 +30,6 @@
         >
           <el-menu-item index="/activePublic" :class="{ isActive: active }"
             >活动发布</el-menu-item
-          >
-          <el-menu-item index="/activeManage" :class="{ isActive: !active }"
-            >活动管理</el-menu-item
           >
         </el-menu>
       </div>
@@ -68,16 +61,7 @@ export default {
   created: function() {
     this.$router.push("/activePublic");
   },
-  methods: {},
-  watch: {
-    $route: function(to, from) {
-      if (to.path == "/activePublic") {
-        this.active = true;
-      } else if (to.path == "/activeManage") {
-        this.active = false;
-      }
-    }
-  }
+  methods: {}
 };
 </script>
 
